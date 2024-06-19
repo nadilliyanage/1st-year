@@ -1,0 +1,42 @@
+-ACTORS-
+Unregistered User
+	-sign up(WIth Email)
+	-Check about courses
+	-help and support
+	
+Registered User
+	-log in
+	-select course
+	-make payments(debit card,online transfer)
+	-helpdesk
+	-enroll modules
+	-watch lecture videos(record videos, online lectures)
+	-give feedback
+	-log out
+
+Lecturer
+	-log in 
+	-add lecture(videos, links)
+	-check feedback
+	-get payments(bank details)
+	-support
+	-log out
+
+Admin
+	-log in 
+	-manage page(add pages, remove pages, edit pages)
+	-manage users (add users, remove users, edit users) 
+	-assign rules
+	-check customers' reviews and complaints (if...take action)
+	-give payments
+	-log out
+
+Coordinator
+	-log in
+	-create time tables
+	-check payments
+	-give module access
+	-monitoring Activites
+	-genrate report(daily,monthly,yearly)
+	-log out
+
