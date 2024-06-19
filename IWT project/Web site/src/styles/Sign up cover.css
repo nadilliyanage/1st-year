@@ -1,0 +1,37 @@
+
+.split {
+  height: 100%; 
+  width: 50%;
+  margin-top: 61px; 
+  overflow-x: auto;
+
+}
+
+.left {
+  width: 50%;
+  background-color: #262626;
+  position: fixed;
+}
+
+.right {
+  right: 0;
+  width: 50%;
+  background-color: #000;
+  position: fixed;
+}
+
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+p,h1{
+	color:white;
+}

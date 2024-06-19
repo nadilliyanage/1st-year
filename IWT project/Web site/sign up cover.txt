@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up Cover Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Welcome to our Learning Platform!</h1>
+		<p>Please select your account type:</p>
+		<div class="account-type">
+			<a href="teacher-signup.php">Lecturer</a>
+			<a href="trainee-signup.php">Trainee Teacher</a>
+		</div>
+	</div>
+</body>
+</html>

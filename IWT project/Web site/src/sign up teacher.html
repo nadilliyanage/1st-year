@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sign Up Trainee Teacher</title>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="styles/sign up teacher.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="" height="40" width="130">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="Contact us.html">Contact US</a></li>
+        <li><a href="Help & support.html">Help & Support</a></li>
+      </ul>
+    </nav>
+  </header>
+  <hr style="color:white;">
+
+  <div class="container">
+    <form action="login.php" method="post">
+      <h2>Sign Up - Trainee Teacher</h2>
+
+      <br><br>
+
+      <div class="row">
+        <div class="col">
+          <label for="firstname">First Name:</label><br>
+          <input type="text" id="firstname" name="firstname" required><br>
+
+        </div>
+        <div class="col">
+          <label for="lastname">Last Name:</label><br>
+          <input type="text" id="lastname" name="lastname" required>
+        </div>
+      </div>
+      <br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password" required>
+      <br>
+      <label for="nic">NIC:</label><br>
+      <input type="text" id="nic" name="nic" required>
+      <br>
+      <label for="course">Select Course:</label><br>
+      <select id="course" name="course">
+        <option value="Module">Pedagogy and Classroom Management</option>
+        <option value="Module">Technology in Education</option>
+        <option value="Module">Differentiated Instruction</option>
+		<option value="Module">Special Education</option>
+		<option value="Module">Culturally Responsive Teaching</option>
+      </select>
+
+      <label for="courses">About Courses <a href="About Course.html">click here.</a></label>
+      <br><br>
+      <input type="checkbox" id="agree" name="agree" required>
+      <label for="agree">I agree to the <a href="#">Terms and Conditions.</a></label>
+      <br>
+
+      <button type="submit" name="submit">Submit</button>
+
+    </form>
+
+    <button class="login-button1" onclick="loginWithFacebook()">Continue with Facebook</button>
+    <button class="login-button2" onclick="loginWithgoogle()">Continue with Google</button>
+    <button class="login-button3" onclick="loginWithlinkedin()">Continue with LinkedIn</button>
+
+
+  </div>
+
+
+  <footer class="footer-section">
+    <hr style="color:white;">
+    <div class="sup_img">
+      <img src="images/support.png" alt="" height="150" width="200"><br>
+      <h3>DO YOU NEED ANY</h3>
+      <h1>SUPPORT?</h1>
+    </div>
+
+    <div class="footer-cta pt-5 pb-5">
+      <div class="single-cta">
+        <div class="cta-text">
+          <img src="images/location.png" alt="" height="35" width="35">
+          <h4>Find us</h4>
+          <span>105, New Kandy RD, Malabe</span>
+        </div>
+
+        <div class="calendar"></div>
+
+
+      </div>
+      <div class="single-cta">
+        <div class="cta-text">
+          <img src="images/Phone.png" alt="" height="35" width="35">
+          <h4>Call us</h4>
+          <span>+94 71 234 5678</span>
+        </div>
+      </div>
+      <div class="single-cta">
+        <div class="cta-text">
+          <img src="images/mail.png" alt="" height="35" width="35">
+          <h4>Mail us</h4>
+          <span>info@eduteach.com</span>
+        </div>
+        <div class="download">
+          <p><b>Get us on</b></p>
+          <img src="images/playstore.png" alt="" height="40" width="80">
+          <img src="images/appstore.png" alt="" height="40" width="80">
+          <img src="images/winstore.png" alt="" height="40" width="80">
+        </div>
+      </div>
+    </div>
+    <div class="social_logo">
+      <a href="https://support.google.com/accounts/answer/27441?hl=en"><img src="images/google.png" alt="" height="20" width="20"></a>
+      <a href="https://www.linkedin.com/signup"><img src="images/linkedin.png" alt="" height="20" width="20"></a>
+      <a href="https://twitter.com/i/flow/signup"><img src="images/twitter.png" alt="" height="20" width="20"></a>
+      <a href="https://www.facebook.com/signup"><img src="images/fb.png" alt="" height="20" width="20"></a>
+      <a href="https://web.telegram.org/"><img src="images/telegram.png" alt="" height="20" width="20"></a>
+      <a href="https://github.com/signup"><img src="images/github.png" alt="" height="20" width="20"></a>
+    </div>
+
+    <div class="copyright">
+      <p>Visit Our Page : <a href="Log in.html">https://www.eduteach.com</a></p>
+
+    </div>
+    <h6>Created By MLB_11.1_09<h6>
+    <script src="js/calendar.js"></script>
+  </footer>
+
+</body>
+
+</html>

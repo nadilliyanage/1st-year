@@ -1,0 +1,29 @@
+
+
+/* Section styles */
+section {
+  margin-bottom: 20px;
+  padding:20px;
+  background-color:#262626;
+}
+
+h2 {
+  color:white;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom:10px;
+  text-decoration:underline;
+}
+
+/* List styles */
+ul {
+  margin: 0;
+  padding-left: 20px;
+  color:white;
+}
+h3{
+	color:white;
+}
+p{
+	color:white;
+}

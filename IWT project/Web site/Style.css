@@ -1,0 +1,43 @@
+.container {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
+form {
+  border: 1px solid #ccc;
+  background-color: #f3f3f3;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a red border to the input fields if they are invalid */
+input:invalid {
+  border-color: red;
+}

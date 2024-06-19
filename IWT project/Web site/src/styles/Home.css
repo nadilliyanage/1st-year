@@ -1,0 +1,160 @@
+
+    /* Set height and width for the container */
+    .container {
+      height: 100vh; /* Adjust as needed */
+      display: flex;
+      flex-direction: column;
+	  
+    }
+
+    /* Define styles for the navigation bar */
+    .navbar {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+    /* Define styles for the content sections */
+    .content {
+      flex: 1;
+      display: flex;
+    }
+
+    .left-section{
+		flex: 20%;
+        padding: 20px;
+		background-color:#262626;
+		border:solid 1px white;
+	
+	}
+    .middle-section{
+		flex: 60%;
+        padding: 20px;
+		background-color:#262626;
+		border:solid 1px white;
+	
+		
+	}
+    .right-section {
+      flex: 20%;
+      padding: 20px;
+	  background-color:#262626;
+	  border:solid 1px white;
+
+    }
+
+ .home-content {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .home-content h2 {
+      font-size: 24px;
+      color: white;
+    }
+
+    .home-content p {
+      font-size: 16px;
+      color: #FFFDD0;
+    }
+
+    .home-content ul {
+      list-style-type: disc;
+      text-align: left;
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+
+    .home-content li {
+      font-size: 14px;
+      color: #FFFFF0;
+      margin-bottom: 5px;
+    }
+
+    .cta-section {
+      margin-top: 50px;
+    }
+
+    .cta-section h3 {
+      font-size: 20px;
+      color: white;
+    }
+
+    .cta-section p {
+      font-size: 16px;
+      color: #FAF9F6;
+    }
+
+    .cta-section button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+	
+	
+
+    .cta-section button:hover {
+      background-color: #555;
+    }
+	
+	
+	.mini-timetable {
+      margin-top: 20px;
+    }
+
+    .mini-timetable h3 {
+      font-size: 20px;
+      
+	  color:white;
+    }
+
+    .mini-timetable table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+	  color:#FAF9F6;
+    }
+
+    .mini-timetable th,
+    .mini-timetable td {
+      padding: 8px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+
+    .mini-timetable th {
+      background-color: black;
+      font-weight: bold;
+    }
+	.right-section h2{
+		color:white;
+		text-align:center;
+		
+	}
+	
+
+.left-section h2 {
+  font-size: 24px;
+  color:white;
+  margin-bottom: 20px;
+  text-align:center;
+}
+
+.notice {
+  margin-bottom: 20px;
+}
+
+.left-section h3 {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.left-section p {
+  font-size: 14px;
+  color: #777;
+}

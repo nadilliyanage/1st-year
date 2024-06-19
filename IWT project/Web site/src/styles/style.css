@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+	padding: 0;
+}	
+
+html, body {
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	background-image: url('/images/bg.jpg');
+	background-repeat: no-repeat;
+}
+
+header {
+	height: 60px;
+	background: #151414;
+	padding: 0 50px;
+}
+
+.logo {
+	float: left;
+	margin-top: 10px;
+}
+
+nav {
+	width: 68%;
+	float: right;
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 0 10px;
+	padding: 0 10px;
+	line-height: 60px;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: gray;
+	padding: 20px 10px;
+}
+
+.footer-section {
+	background: #151414;
+	position: relative;
+	margin-top: auto;
+	
+	
+}
+
+.footer-cta {
+	border-bottom: 1px solid #373636;
+}
+
+.cta-text {
+	padding-left: 20px;
+	display: inline-block;
+}
+
+.cta-text img {
+	margin-top: 5px;
+}
+
+.cta-text h4 {
+	color: #fff;
+	font-size: 10px;
+	font-weight: 600;
+	margin-bottom: 2px;
+}
+
+.cta-text span {
+	color: #757575;
+	font-size: 10px;
+}
+
+.created {
+	text-align: center;
+}
+
+.social_logo {
+	float: right;
+	margin-top: 5px;
+}	
+
+.calendar {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 30px;
+  float: right;
+  width: 280px; 
+}
+
+.calendar table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.calendar th {
+  background-color: #1520A6;
+  text-align: center;
+  padding: 8px; 
+}
+
+.calendar td {
+  text-align: center;
+  padding: 8px; 
+  background-color: #151E3D;
+}
+
+.calendar td:hover {
+  background-color: #82EEFD;
+}
+
+.current-day {
+  background-color: yellow;
+}
+
+
+
+.download {
+	float: right;
+	margin-right: 40px;
+	margin-top:10px;
+	color: white;
+}
+
+.getus {
+	margin-right: 80px;
+	margin-bottom: 10px;
+}
+
+.sup_img {
+	float: left;
+	color: white;
+}
+
+.sup_img h3 {
+	margin-left: 15px;
+}
+
+.sup_img h1 {
+	margin-left: 20px;
+}
+
+.footer-section .copyright {
+  display: flex;
+  color: white;
+  margin-top: 5px;
+}
+
+
+
+.footer-section .copyrigh {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.footer-section .copyrigh p {
+  color: white;
+}
+
+h6 {
+  color: white;
+  text-align: center;
+  
+}

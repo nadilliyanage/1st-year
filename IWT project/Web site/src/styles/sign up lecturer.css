@@ -1,0 +1,93 @@
+.container {
+  float: left;
+  max-width: 100%;
+  padding: 20px;
+  color: white;
+}
+
+form {
+  border: 1px solid #ccc;
+  background-color: #262626;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+select {
+  width: 95%;
+  padding: 12px;
+  margin: 8px 0;
+  display: flex;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row div.col {
+  float: left;
+  width: 50%;
+}
+
+button[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+}
+
+button[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+.login-button1,
+.login-button2,
+.login-button3 {
+  background-color: #4267B2;
+  color: #fff;
+  padding: 10px 20px;
+  border: solid black;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.login-button1:hover
+ {
+  background-color: #3B5998;
+}
+
+.login-button2 {
+  background-color: #0F9D58;
+}
+
+.login-button2:hover {
+  background-color: #013220;
+}
+
+.login-button3 {
+  background-color: #1338BE;
+}
+
+.login-button3:hover {
+  background-color: #1520A6;
+}
