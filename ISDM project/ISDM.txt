@@ -1,0 +1,95 @@
+
+
+1. Main requirements for the online teacher trainer system:
+
+- The system should allow for the creation and management of user accounts for both teachers and administrators.
+- The system should have a course management module that allows administrators to create and manage courses, and teachers to view and access the courses they are assigned to teach.
+- The system should allow for the creation and management of lesson plans, assignments, and assessments for each course.
+- The system should have a communication module that allows teachers and administrators to communicate with each other, as well as with students.
+- The system should have a reporting module that provides data on student progress, course completion, and other metrics.
+- The system should be accessible via a web interface and be compatible with multiple devices and web browsers.
+
+2. Data requirements to develop the Database:
+
+- User account information, including usernames, passwords, email addresses, and role (teacher or administrator).
+- Course information, including course names, descriptions, start and end dates, and associated teachers and administrators.
+- Lesson plan information, including lesson names, descriptions, objectives, materials needed, and associated course.
+- Assignment information, including assignment names, descriptions, due dates, and associated course and students.
+- Assessment information, including assessment names, descriptions, due dates, grading criteria, and associated course and students.
+- Communication information, including message content, sender and recipient information, and associated course and students.
+- Reporting information, including student progress, course completion, and other metrics.
+
+3. Entity Relationship (ER) Model for the Data requirements:
+
+- User table: Fields include user ID, username, password, email address, and role.
+- Course table: Fields include course ID, course name, description, start date, end date, teacher ID, and administrator ID.
+- Lesson table: Fields include lesson ID, lesson name, description, objectives, materials needed, and course ID.
+- Assignment table: Fields include assignment ID, assignment name, description, due date, course ID, and student ID.
+- Assessment table: Fields include assessment ID, assessment name, description, due date, grading criteria, course ID, and student ID.
+- Communication table: Fields include message ID, message content, sender ID, recipient ID, course ID, and student ID.
+- Reporting table: Fields include reporting ID, student ID, course ID, progress, completion date, and other metrics.
+
+
+
+
+To develop a database for the actors you mentioned, the following data requirements could be considered:
+
+1. Unregistered user:
+- First name
+- Last name
+- Email address 
+- Username 
+- Password 
+- Interaction history (if applicable)
+
+2. Trainee teacher:
+- First name
+- Last name
+- Email address
+- Username
+- Password
+- phone number
+- address
+- Education background
+- Subject area(s) of interest
+- Training program details (if applicable)
+- Performance evaluation data (if applicable)
+
+3. Lecturer:
+- First name
+- Last name
+- Email address
+- Username
+- Password
+- phone number
+- address
+- Education background
+- Teaching experience
+- Subject area(s) of expertise
+- Course(s) taught
+- Performance evaluation data (if applicable)
+
+4. Coordinator:
+- First name
+- Last name
+- Email address
+- Username
+- Password
+- phone number
+- address
+- Role and responsibilities
+- Supervisory responsibility (if applicable)
+- Interaction history with trainee teachers and lecturers (if applicable)
+
+5. Admin:
+- First name
+- Last name
+- Email address
+- Username
+- Password
+- Contact information (phone number, address)
+- Role and responsibilities
+- System access and permissions
+- Interaction history with other actors (if applicable)
+
+Note that the specific data requirements may vary depending on the particular context and needs of the database. It's important to carefully consider the necessary data points for each actor to ensure that the database is comprehensive and useful.

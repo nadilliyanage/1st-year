@@ -1,0 +1,101 @@
+1. Unregistered User
+	name- first name , last name
+	e mail
+	password
+	NIC
+	
+	
+2. Trainee teacher(20. Registered User)
+	name- first name , last name
+	username
+	email
+	password
+	NIC
+	Register no
+	mobile no
+	
+3. Lecturer(20. Registered User)
+	name- first name , last name
+	username
+	email
+	password
+	NIC
+	Register no
+	mobile no
+
+4. Admin
+	name
+	admin_no
+	email
+	password
+	mobile no
+	
+5. Coordinator
+	name
+	Coordinator_no
+	email
+	password
+	mobile no
+
+6. Course
+	name 
+	course_id
+	
+7. Module
+	name
+	module_id
+	
+8. Payment
+	payment_id
+	amount
+	receipt_no
+	description 
+	TT_register_no
+	L_register_no
+	
+9. Report
+	no
+	description
+	category
+	
+10. Lecture Link
+	ID
+	module
+	lecturer
+
+11. Lecture video
+	ID
+	module
+	lecturer
+	
+12. Feedback
+	no
+	Feedback
+	lecturer no
+	
+13. Login -> 14. permission
+	username
+	email 
+	password
+
+14. Examination
+	no
+	module
+	links
+	
+15. Timetable
+	no
+	date 
+	time
+	module
+	
+16. Progress
+
+17. Certificate
+	id
+	date
+	TT_name
+
+18. Support
+
+19. Registered User
